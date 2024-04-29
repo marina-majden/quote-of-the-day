@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Dosis;
+  src: url(/intense-motivator/src/assets/fonts/Dosis-Book.ttf)
+    format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Writing;
+  src: url(/intense-motivator/src/assets/fonts/Writing.ttf) format("truetype");
+}
+@font-face {
+  font-family: Zapfino;
+  src: url(/intense-motivator/src/assets/fonts/Zapfino.ttf) format("truetype");
+}

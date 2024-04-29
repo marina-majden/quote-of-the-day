@@ -1,0 +1,21 @@
+{
+  "lang": "en-us",
+  "name": "Quote of the Day",
+  "short_name": "Quote OTD",
+  "description": "Tiny, but very cute app that spreads wisdom and motivating thoughts by this world's greatest minds.",
+  "start_url": "/",
+  "background_color": "#222222",
+  "theme_color": "#003344",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./public/quote-logo.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./public/quote-logo-s.png",
+      "sizes": "192x192"
+    }
+  ]
+}

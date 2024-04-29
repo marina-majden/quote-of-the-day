@@ -1,0 +1,78 @@
+:root {
+  --bg: #222222;
+  --text: #000111;
+  --accent: #003344;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Zapfino", sans-serif;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: var(--bg);
+  background-image: url("./assets/imgs/bckg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.8rem 1.4rem;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: var(--accent);
+  cursor: pointer;
+  color: white;
+}
+button:hover {
+  background-color: var(--accent) 0.2;
+  border-color: transparent;
+  transition: background-color 0.8s ease-in-out;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.title {
+  font-size: clamp(2.125rem, 5vw, 3rem);
+  text-align: center;
+  margin: 1rem 0;
+  padding: 0.2rem;
+  color: rgb(247, 219, 177);
+  text-shadow: 1px 1px 0rem #10151ca4;
+}
+.card {
+  width: 80vw;
+  height: 88vh;
+  margin: 5% auto;
+  padding: 1rem;
+  background: rgba(1, 2, 27, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(13, 16, 66, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 85vw;
+    padding: 1rem;
+    margin: 10% auto;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
