@@ -3,6 +3,8 @@
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=flat&logo=vite)](https://vitejs.dev/)
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify)](https://www.netlify.com/)
 
+## Demo: [Quote of The Day](https://cute-quote-today.netlify.app/)
+
 **Description:**  
 A modern React application that delivers inspirational quotes through seamless API integration. Leveraged the Quotable API to fetch random quotes with author attribution, implementing clean state management and asynchronous data fetching. Features instant quote generation, error boundary handling, and a minimalist UI focused on content clarity.  
 
