@@ -1,7 +1,7 @@
 # Quote of the Day - Dynamic quote generator
 
 **Description:**  
-Engineered a modern React application that delivers inspirational quotes through seamless API integration. Leveraged the Quotable API to fetch random quotes with author attribution, implementing clean state management and asynchronous data fetching. Features instant quote generation, error boundary handling, and a minimalist UI focused on content clarity.  
+A modern React application that delivers inspirational quotes through seamless API integration. Leveraged the Quotable API to fetch random quotes with author attribution, implementing clean state management and asynchronous data fetching. Features instant quote generation, error boundary handling, and a minimalist UI focused on content clarity.  
 
 ## Key Features:  
 - 🔄 One-click quote refresh with persistent API requests  
