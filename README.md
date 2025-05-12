@@ -45,19 +45,19 @@ git clone https://github.com/marina-majden/quote-of-the-day.git
 ```
 
 3. **Install Dependencies**
-   ```
-   npm install
-   ```
+```
+npm install
+```
 
 4. Create a Feature Branch
-   ```
-   git checkout -b feature/your-feature-name
-      ```
+```
+git checkout -b feature/your-feature-name
+```
    
 5. Start Development Server
-  ```
+```
 npm run dev
-  ```
+```
 
 6. Make Your Changes
 
@@ -66,22 +66,22 @@ npm run dev
 - Update documentation when applicable
 
 7. Test Your Changes
-     ```
-     npm test
-     ```
+```
+npm test
+```
 
 8. Commit & Push
-    ```
-    git commit -m "feat: add your meaningful message"  
-    git push origin feature/your-feature-name
-    ```
+```
+git commit -m "feat: add your meaningful message"  
+git push origin feature/your-feature-name
+```
 
 9. Create a Pull Request
    
-     Open a PR against the main branch with:
-     - Detailed description of changes
-     - Screenshots when applicable
-     - Reference related issues using #issue-number
+Open a PR against the main branch with:
+   - Detailed description of changes
+   - Screenshots when applicable
+   - Reference related issues using #issue-number
   
 ## Contribution Guideline
 
@@ -103,4 +103,4 @@ npm run dev
 
 ### License: MIT
 ### Author: Marina Majdenić
-## 💻 Portfolio: https://marina-majden.github.io/ 
+### 💻 Portfolio: https://marina-majden.github.io/ 
